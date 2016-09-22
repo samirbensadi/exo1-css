@@ -1,3 +1,109 @@
-/****************************
- ====== Votre super CSS =====
- ****************************/
+body
+{
+	background-color: black;
+	margin: auto;
+
+}
+
+.head
+{
+	font-family:verdana, sans-serif;
+	background-color: #008080;
+	height: 225px;
+	
+	
+}
+
+.head_content
+{
+	display: flex;
+	color: white;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	float: right;
+	margin-right: 60px;
+
+	
+}
+
+nav li 
+{
+	margin-right: 15px;
+	color: white;
+
+}
+
+li a
+{
+	text-decoration:none;
+	color: white;
+}
+
+.title_content
+{
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+
+}
+
+
+
+.logo
+{
+	height: 190px;
+	width: 190px;
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+.titre
+{
+
+	margin:auto;
+	font-size: 35px;
+
+}
+
+section
+{
+	background-color: white;
+}
+
+table
+
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+footer
+{
+	background-color: 2A2F30;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button
+{
+	background-color: #008080;
+	
+}
+
+.bar
+{
+	width: 720px;
+}
+
+
