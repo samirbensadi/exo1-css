@@ -4,55 +4,57 @@
 	<meta charset="utf-8">
 	<meta name="keywords" content="CODA,simplon,developpeur,web,mobile">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>CODA</title>
+	<title>Exo1-CSS</title>
 </head>
-<body>
+	<body>
 
-<header class="head">
-	<nav>
-		<ul>
-			<li><a href="#">Accueil</a></li>
-			<li>|</li>
-			<li><a href="#">A propos</a></li>
-			<li>|</li>
-			<li><a href="#">Cours</a></li>
-			<li>|</li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
+		<main> <!--Ajout de la balise main: conteneur principal à la place d'une div-->
 
-	<div class="head_content">
-		
-		<img class="logo" src="img/logo.png">
-		
-		<div class="title_content">
-			<h1 class="titre">CODA</h1>
-			<h3>Formation Développement Web et Mobile</h3>
-		</div>
-	</div>
-</header>
+			<header> <!--  header : suppression de la class qui était inutile-->
 
-<section> 
-	<table>
-		<tr>
-			<td><img src="img/image1.jpg"></td>
-			<td><img src="img/image2.jpg"></td>
-		</tr>
-		<tr>
-			<td><img src="img/image3.jpg"></td>
-			<td><img src="img/image4.jpg"></td>
-		</tr>	
-	</table>
-</section>
+				<img class="logo" src="img/logo.png" alt="Logo Coda by simplon"> 
 
-<footer>
+				<!--Menu de navigation-->
+				<nav>
+					<ul>
+						<li><a href="#">Accueil |</a></li>
+						<li><a href="#">A propos |</a></li>
+						<li><a href="#">Cours |</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
 
-	<form>
-		<input class="bar" type="text" name="join"> 
-		<button>Join</button>
-	</form>
-	
-</footer>
+				<!--TITRE-->
+				<div class="titre">
+					<h1 class="titre">CODA</h1>
+					<h3>Formation Développement Web et Mobile</h3>
+				</div>
 
-</body>
+			</header>
+
+
+			<!--SECTION-->
+			<section class="corps"> 
+			<!--Suppression de "table" pour la mise en page des img-->
+
+					<img src="./img/image1.jpg" alt="">
+		            <img src="./img/image2.jpg" alt="">
+		            <img src="./img/image3.png" alt="">
+		            <img src="./img/image4.jpg" alt="">
+				
+			</section>
+
+			<!--PIED DE PAGE-->
+			<footer>
+
+				<form>
+					<input type="text"> 
+					<button>Join</button>
+				</form>
+				
+			</footer>
+
+		</main> 
+
+	</body>
 </html>
